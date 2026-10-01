@@ -141,12 +141,13 @@ public class Game extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("CS Tower Defense");
-        setPreferredSize(new java.awt.Dimension(704, 704));
+        setPreferredSize(new java.awt.Dimension(704, 732));
+        setResizable(false);
         getContentPane().setLayout(new java.awt.GridLayout(11, 11));
 
         row1.setBackground(new java.awt.Color(0, 0, 0));
         row1.setMaximumSize(new java.awt.Dimension(32767, 64));
-        row1.setPreferredSize(new java.awt.Dimension(356, 64));
+        row1.setPreferredSize(new java.awt.Dimension(704, 64));
 
         javax.swing.GroupLayout row1Layout = new javax.swing.GroupLayout(row1);
         row1.setLayout(row1Layout);
@@ -156,14 +157,14 @@ public class Game extends javax.swing.JFrame {
         );
         row1Layout.setVerticalGroup(
             row1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-            .addGap(0, 64, Short.MAX_VALUE)
+            .addGap(0, 66, Short.MAX_VALUE)
         );
 
         getContentPane().add(row1);
 
         row2.setBackground(new java.awt.Color(255, 255, 0));
         row2.setMaximumSize(new java.awt.Dimension(32767, 64));
-        row2.setPreferredSize(new java.awt.Dimension(356, 64));
+        row2.setPreferredSize(new java.awt.Dimension(704, 64));
 
         cell12.setBackground(new java.awt.Color(0, 0, 0));
         cell12.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(224, 62, 216), 2));
@@ -398,7 +399,7 @@ public class Game extends javax.swing.JFrame {
 
         row3.setBackground(new java.awt.Color(255, 255, 0));
         row3.setMaximumSize(new java.awt.Dimension(32767, 64));
-        row3.setPreferredSize(new java.awt.Dimension(356, 64));
+        row3.setPreferredSize(new java.awt.Dimension(704, 64));
 
         cell23.setBackground(new java.awt.Color(0, 0, 0));
         cell23.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(224, 62, 216), 2));
@@ -633,7 +634,7 @@ public class Game extends javax.swing.JFrame {
 
         row4.setBackground(new java.awt.Color(255, 255, 0));
         row4.setMaximumSize(new java.awt.Dimension(32767, 64));
-        row4.setPreferredSize(new java.awt.Dimension(356, 64));
+        row4.setPreferredSize(new java.awt.Dimension(704, 64));
 
         cell34.setBackground(new java.awt.Color(0, 0, 0));
         cell34.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(224, 62, 216), 2));
@@ -868,7 +869,7 @@ public class Game extends javax.swing.JFrame {
 
         row5.setBackground(new java.awt.Color(255, 255, 0));
         row5.setMaximumSize(new java.awt.Dimension(32767, 64));
-        row5.setPreferredSize(new java.awt.Dimension(356, 64));
+        row5.setPreferredSize(new java.awt.Dimension(704, 64));
 
         cell45.setBackground(new java.awt.Color(0, 0, 0));
         cell45.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(224, 62, 216), 2));
@@ -1103,7 +1104,7 @@ public class Game extends javax.swing.JFrame {
 
         row6.setBackground(new java.awt.Color(255, 255, 0));
         row6.setMaximumSize(new java.awt.Dimension(32767, 64));
-        row6.setPreferredSize(new java.awt.Dimension(356, 64));
+        row6.setPreferredSize(new java.awt.Dimension(704, 64));
 
         cell56.setBackground(new java.awt.Color(0, 0, 0));
         cell56.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(224, 62, 216), 2));
@@ -1338,7 +1339,7 @@ public class Game extends javax.swing.JFrame {
 
         row7.setBackground(new java.awt.Color(255, 255, 0));
         row7.setMaximumSize(new java.awt.Dimension(32767, 64));
-        row7.setPreferredSize(new java.awt.Dimension(356, 64));
+        row7.setPreferredSize(new java.awt.Dimension(704, 64));
 
         cell67.setBackground(new java.awt.Color(0, 0, 0));
         cell67.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(224, 62, 216), 2));
@@ -1573,7 +1574,7 @@ public class Game extends javax.swing.JFrame {
 
         row8.setBackground(new java.awt.Color(255, 255, 0));
         row8.setMaximumSize(new java.awt.Dimension(32767, 64));
-        row8.setPreferredSize(new java.awt.Dimension(356, 64));
+        row8.setPreferredSize(new java.awt.Dimension(704, 64));
 
         cell78.setBackground(new java.awt.Color(0, 0, 0));
         cell78.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(224, 62, 216), 2));
@@ -1808,7 +1809,7 @@ public class Game extends javax.swing.JFrame {
 
         row9.setBackground(new java.awt.Color(255, 255, 0));
         row9.setMaximumSize(new java.awt.Dimension(32767, 64));
-        row9.setPreferredSize(new java.awt.Dimension(356, 64));
+        row9.setPreferredSize(new java.awt.Dimension(704, 64));
 
         cell89.setBackground(new java.awt.Color(0, 0, 0));
         cell89.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(224, 62, 216), 2));
@@ -2043,7 +2044,7 @@ public class Game extends javax.swing.JFrame {
 
         row10.setBackground(new java.awt.Color(255, 255, 0));
         row10.setMaximumSize(new java.awt.Dimension(32767, 64));
-        row10.setPreferredSize(new java.awt.Dimension(356, 64));
+        row10.setPreferredSize(new java.awt.Dimension(704, 64));
 
         cell100.setBackground(new java.awt.Color(0, 0, 0));
         cell100.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(224, 62, 216), 2));
@@ -2278,7 +2279,7 @@ public class Game extends javax.swing.JFrame {
 
         row11.setBackground(new java.awt.Color(0, 0, 0));
         row11.setMaximumSize(new java.awt.Dimension(32767, 64));
-        row11.setPreferredSize(new java.awt.Dimension(352, 64));
+        row11.setPreferredSize(new java.awt.Dimension(704, 64));
 
         javax.swing.GroupLayout row11Layout = new javax.swing.GroupLayout(row11);
         row11.setLayout(row11Layout);
@@ -2288,7 +2289,7 @@ public class Game extends javax.swing.JFrame {
         );
         row11Layout.setVerticalGroup(
             row11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 64, Short.MAX_VALUE)
+            .addGap(0, 66, Short.MAX_VALUE)
         );
 
         getContentPane().add(row11);
